@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background: url(https://plus.unsplash.com/premium_photo-1661963896259-7b183a79005c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 60%;
+    width: 30%;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    transition: all 1s ;
+}
+.container:hover{
+    scale: 1.01;
+}
+.searchbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+
+}
+.searchbar input[type=text]{
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+    outline: none;
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.citybtn{
+    border: none;
+    border-radius: 100%;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+}
+.citybtn:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+.icon{
+    font-size: 80px;
+    padding: 60px 0;
+    transition: all 1s;
+}
+.degree{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    padding: 0 0 3px 0 ;
+}
+
+.cityname{
+    font-size: 30px;
+}
+.date{
+    font-size: 15px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    padding: 30px 0;
+}
